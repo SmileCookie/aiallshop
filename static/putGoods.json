@@ -1,0 +1,34 @@
+[
+    {   
+        "goodsID" : 1,
+        "goodsTitle" : "【上架】【金晔原汁原味山楂宝】 天然原果草莓山楂宝 200g",
+        "goodsPrice" : 9.00,
+        "goodsSalesNum" : 0, 
+        "num":1,
+        "goodsSrc" :"https://www.52zhonggou.com/images/201703/thumb_img/3133_thumb_G_1490248465635.jpg"
+    },
+    {   
+        "goodsID" : 2,
+        "goodsTitle" : "【上架】天鹭 芒果干水果干 108g/324g",
+        "goodsPrice" : 90.00,
+        "goodsSalesNum" : 0, 
+        "num":1,
+        "goodsSrc" : "https://www.52zhonggou.com/images/201705/thumb_img/3770_thumb_G_1493708803745.jpg"
+    },
+    {   
+        "goodsID" : 3,
+        "goodsTitle" : "【上架】广天黄桃子罐头425克 整箱6罐或12罐 新年礼盒",
+        "goodsPrice" : 90.00,
+        "goodsSalesNum" : 0, 
+        "num":1,
+        "goodsSrc" : "https://www.52zhonggou.com/images/201702/thumb_img/1827_thumb_G_1486447392597.jpg"
+    },
+    {   
+        "goodsID" : 4,
+        "goodsTitle" : "【上架】【金晔原汁原味地瓜干】农家自制无添加红薯干条150g",
+        "goodsPrice" : 90.00,
+        "goodsSalesNum" : 0, 
+        "num":1,
+        "goodsSrc" : "https://www.52zhonggou.com/images/201703/thumb_img/3130_thumb_G_1490246629670.jpg"
+    }
+]
