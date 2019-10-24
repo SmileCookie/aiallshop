@@ -1,0 +1,93 @@
+.login-main{
+    background: #efefef;
+    width: 100%;
+    position: relative;
+    padding-bottom: 4rem;
+    .login-box{
+        text-align: center;
+        margin-top: 0.4rem;
+        position: relative;
+        height: 3.05rem;
+        input{
+            width: 6rem;
+            height: 1rem;
+            border:0.02rem solid #bdbcbd;
+            font-size: 0.34rem;
+            border-radius: 0.05rem;
+            text-indent: 0.4rem;
+        }
+        input::placeholder{
+            color: #c7c7cd;
+            font-size: 0.26rem;
+            text-indent: 0.4rem;
+        }
+        input:first-child{
+            border-bottom: none;
+        }
+        a{
+            display: block;
+            @h:0.72rem;
+            @w:5.20rem;
+            height: @h;
+            width: @w;
+            background: #fd7c0e;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            line-height: @h;
+            color: #ffffff;
+            font-size: 0.3rem;
+            border-radius: 0.05rem;
+        }
+    }
+
+    .forget{
+        display: block;
+        position: relative;
+        margin-top: 0.3rem;
+        margin-bottom: 0.5rem;
+        @h: 0.8rem;
+        height: @h;
+        p{
+        width: 100%;
+        height: 0.02rem;
+        background: #aaaaaa;
+        position: absolute;
+        top: 0.4rem;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+        .forgetPassword{ 
+            height: @h;
+            line-height: @h;
+            position: absolute;
+            padding: 0 0.56rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9;
+            color:#fd7c0e;
+            background: #efefef;
+            font-size: 0.26rem;
+        }    
+    }
+
+    .toRegister{
+        @h: 0.7rem;
+        @w:5.2rem;
+        width: @w;
+        height: @h;
+        border:0.02rem solid #bdbcbd;
+        border-radius: 0.05rem;
+        text-align: center;
+        line-height: @h;
+        color: #000000;
+        font-size: 0.26rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        a{
+            color: #fd7c0e;
+        }
+    }
+}

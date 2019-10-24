@@ -1,0 +1,74 @@
+[
+    {
+        "goodsID" : 5,
+        "goodsName" : "华彩人生",
+        "price" : 169.00,
+        "goodsImg" : "http://img5.imgtn.bdimg.com/it/u=2951193600,4254924153&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 6,
+        "goodsName" : "荣华富贵",
+        "price" : 159.00,
+        "goodsImg" : "http://img2.imgtn.bdimg.com/it/u=1171660760,1423847130&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 7,
+        "goodsName" : "华彩人生",
+        "price" : 139.00,
+        "goodsImg" : "http://img3.imgtn.bdimg.com/it/u=2190940192,1899654149&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 8,
+        "goodsName" : "华彩人生",
+        "price" : 189.00,
+        "goodsImg" : "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3613669146,4227301759&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 9,
+        "goodsName" : "华彩人生",
+        "price" : 119.00,
+        "goodsImg" : "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1250933915,168013616&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 10,
+        "goodsName" : "贵州茅台",
+        "price" : 139.00,
+        "goodsImg" : "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=278761676,3427545480&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 11,
+        "goodsName" : "茅台迎宾酒",
+        "price" : 179.00,
+        "goodsImg" : "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=774439725,2976554171&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 12,
+        "goodsName" : "天之蓝",
+        "price" : 69.00,
+        "goodsImg" : "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1408067604,3257187237&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 13,
+        "goodsName" : "海之蓝",
+        "price" : 99.00,
+        "goodsImg" : "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3274475451,2127919095&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 14,
+        "goodsName" : "汾酒",
+        "price" : 89.00,
+        "goodsImg" : "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1693571730,4237667437&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 15,
+        "goodsName" : "剑南春",
+        "price" : 79.00,
+        "goodsImg" : "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=364720411,3097014014&fm=27&gp=0.jpg"
+    },
+    {
+        "goodsID" : 16,
+        "goodsName" : "泸州老窖",
+        "price" : 219.00,
+        "goodsImg" : "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1487712045,490341080&fm=27&gp=0.jpg"
+    }
+]

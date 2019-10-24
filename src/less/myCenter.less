@@ -1,0 +1,67 @@
+.mycenter-main{
+    width: 100%;
+    background: #efefef;
+    padding-bottom: 1rem;
+    .head{
+        @h:3rem;
+        height: @h;
+        background: url("http://img1.imgtn.bdimg.com/it/u=3437252055,2722243118&fm=27&gp=0.jpg") no-repeat ;
+        background-size: 100% 100%;
+        display: flex;
+        align-items: center;
+        
+        .iconfont{
+            font-size: 1.28rem;
+            color: #ffb04c;
+            margin-left: 0.4rem;
+        }
+        .username{
+            font-size: 0.2rem;
+            color: #fff;
+            margin-left: 0.2rem;
+        }
+    }
+    ul{
+        width: 100%;
+        li{
+            @w: 6rem;
+            @h: 1rem;
+            width: @w;
+            height: @h;
+            border: 0.02rem solid #bdbcbd;
+            border-radius: 0.1rem;
+            margin-left: 0.2rem;
+            background: #fff;
+            a{
+                display: block;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 0.2rem;
+                box-sizing: border-box;
+                align-items: center;
+                p{
+                    font-size: 0.26rem;
+                    color: #000000;
+                    line-height: @h;
+                }
+            }
+        }
+        li:nth-of-type(1),li:nth-of-type(4),li:nth-of-type(6),li:nth-of-type(8){
+            margin-top: 0.2rem;
+        }
+    }
+    .leave{
+        display: block;
+        @h:0.72rem;
+        @w: 3.2rem;
+        height: @h;
+        width: @w;
+        background: #e4212c;
+        border-radius: 0.1rem;
+        margin: 0.2rem auto;
+        line-height: @h;
+        text-align: center;
+        color: #fff;
+        font-size: 0.28rem;
+    }
+}

@@ -1,0 +1,310 @@
+@import "./style";
+.home{
+    background: none !important;
+}
+#goodsSearch{
+    position: fixed !important;
+    background: #b2b2b2;
+    top:1.28rem;
+    left: 0;
+    flex: 1;
+        width: 100%;
+        background: red;
+        display: flex;
+        @h:0.68rem;
+        .icon-sousuo{
+        
+            padding: 0.12rem;
+            font-size: 0.34rem;
+        }
+        input{
+            width: 100%;
+            flex: 1;
+           
+           height: @h; 
+        }
+        p{
+            background :#f2f2f2;
+            height: @h;
+            color: #666666;
+            line-height: @h;
+            width: 1rem;
+            text-align: center;
+
+        }
+}
+
+header{
+    padding: 0.23rem 0.34rem 0.23rem 0;
+    z-index: 99; 
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0.4rem;
+    left: 0;
+    background: #ff8b1c;
+    width: 100%;
+    .back{
+        padding: 0 0.05rem 0 0.28rem;
+        color: #ffffff;
+    }
+    h3{
+        @h:0.66rem;
+        flex: 1;
+        width: 100%;
+        text-align: center;
+        height: @h;
+        font-size: 0.32rem;
+        color: #ffffff;
+        line-height: @h;
+    }
+    .icon-saoma{
+        padding: 0 0.12rem;
+        font-size: 0.4rem;
+        opacity: 0.5;
+        color: #fff;
+    }
+    .search-box{
+        flex: 1;
+        width: 100%;
+        background: #ffffff;
+        display: flex;
+        @h:0.68rem;
+        opacity: 0.5;
+        .icon-sousuo{
+        
+            padding: 0.12rem;
+            font-size: 0.34rem;
+        }
+        input{
+            width: 100%;
+            flex: 1;
+           
+           height: @h; 
+        }
+        p{
+            background :#f2f2f2;
+            height: @h;
+            color: #666666;
+            line-height: @h;
+            width: 1rem;
+            text-align: center;
+
+        }
+    }
+}
+.banner{
+    @h:4rem;
+    height: @h;
+    position: relative;
+    .swiper-pagination-bullet {
+        background: #fff !important;
+        opacity : 0.8 !important;
+    }
+    
+      .swiper-pagination-bullet-active {
+        background: #f00 !important;
+    }
+    .swiper-pagination{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 44 !important;
+    }
+   
+
+}
+
+
+.homemenu{
+    padding-bottom: 0.3rem;
+    ul{
+        
+        height: 3.28rem;
+        li{
+            margin-top: 0.3rem;
+            @h: 1.34rem;
+            height: @h;
+            width: 25%;
+            float: left;
+            a{
+                display: block;
+                text-align: center;
+                .menuImg{
+                    @h: 0.96rem;
+                    width: @h;
+                    height: @h;
+                    border-radius: 0.07rem;
+                    margin : 0 auto;
+                }
+                p{
+                    margin-top: 0.1rem;
+                   font-size: 0.2rem; 
+                   color: #858585;
+                   height: 0.24rem;
+                }
+            }
+        }
+    }
+}
+
+
+.hotgoods{
+    background: #f2f2f2;
+    padding: 0 0.14rem;
+    height: auto;
+    .head{
+        display: block;
+        position: relative;
+        @h: 0.8rem;
+        height: @h;
+        p{
+        width: 80%;
+        height: 0.02rem;
+        background: #d8d8d8;
+        position: absolute;
+        top: 0.4rem;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+        .title{ 
+            height: @h;
+            padding:0 0.24rem;
+            line-height: @h;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 9;
+            background: #f3f3f3;
+            color:#666666;
+        }    
+    }
+
+    .goods{
+        overflow: hidden;
+        li{
+            @h: 4.54rem;
+            height: @h;
+            float: left;
+            background: #fff;
+            margin: 0 0.06rem;
+            margin-bottom: 0.15rem;
+            a{
+                
+                display: block;
+                width: 50%;
+                height: @h;
+                .goodsImg{
+                    @h:2.94rem;
+                    width: @h;
+                    height: @h;
+                }
+                .goodsInfo{
+                    @h:0.68rem;
+                    height: @h;
+                    line-height: @h;
+                    font-size: 0.24rem;
+                }
+                .goodsName{
+                    color: #858585;
+                    margin-top: 0.23rem;
+                }
+                .price{
+                    color: #f16a2a;
+                }
+            }
+        }
+    }
+}
+
+.search-goods{
+    position: fixed;
+    z-index:33;
+    top: 1.5rem;
+    left: 0;
+    display: flex;
+    width: 100%;
+    background: #b2b2b2;
+    @h:0.9rem;
+    height: @h;
+    @hh: 0.66rem;
+    box-sizing: border-box;
+    padding: 0.12rem 0.14rem;
+    .icon-sousuo{
+        padding: 0.12rem;
+        background: #fff;
+        text-align: center;
+        font-size: 0.43rem;
+        color: #8e8e93;
+    }
+    input{
+        width: 100%;
+        flex: 1;
+        height: @hh;
+    }
+    a{
+        display: block;
+        width: 1rem;
+        height: @hh;
+        line-height: @hh;
+        text-align: center;
+        background: #f2f2f2;
+        color: #131313;
+        font-size: 0.26rem;
+    }
+}
+
+
+
+nav{
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: #ffffff;
+    border-top:0.03rem solid #b3b3b3;
+    ul{
+        display: flex;
+
+        li{
+            flex: 1;
+            &.active{
+                
+
+                a{
+                    padding-top:0.07rem;
+                    .iconfont{
+                        font-size: 0.46rem;
+                        color: #ffa200;
+                    }
+                }
+            }
+
+            a{
+                display: block;
+                height: @bh - 0.06rem;
+                color: #111111;
+                text-align: center;
+                padding-top:0.06rem;
+               
+                box-sizing: border-box;
+
+                .iconfont{
+                    @h:0.58rem;
+                    height: @h;
+                    line-height: @h;
+                    font-size: 0.44rem;
+                    color: #ffba43;
+                }
+                p{
+                    @h:0.34rem;
+                    height: @h;
+                    line-height: @h - 0.15rem;
+                    font-size: 0.22rem;
+                }
+            }
+        }
+    }
+}

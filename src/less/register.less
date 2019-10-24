@@ -1,0 +1,62 @@
+.register-main{
+    background: #efefef;
+    width: 100%;
+    position: relative;
+    padding-bottom: 4.3rem;
+    p{
+        margin-left: 0.18rem; 
+        width: 100%;
+        @h: 1.1rem;
+        @w: 6rem ;
+        height: @h;
+        width: @w;
+        border: 0.02rem solid #bdbcbd;
+        display: flex;
+        background: #ffffff;
+        span{
+            display: block;
+            width: 1.2rem;
+            margin: 0 0.1rem;
+            height:@h;
+            font-size: 0.26rem;
+            line-height: @h;
+        }
+        
+        input{
+            display: block;
+            height: @h;
+            flex: 1;
+            font-size: 0.26rem;
+        }
+    }
+    p:first-child{
+        margin-top: 0.2rem;
+    }
+    .agree{
+        @h:0.82rem;
+        height: @h;
+        line-height: @h;
+        margin-left: 0.18rem;
+        font-size: 0.26rem;
+        color: #000000;
+        a{
+            color: #324f85;
+        }
+    }
+    .register{
+        display: block;
+        @h:0.72rem;
+        @w:5.20rem;
+        height: @h;
+        width: @w;
+        background: #fd7c0e;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        line-height: @h;
+        color: #ffffff;
+        font-size: 0.3rem;
+        border-radius: 0.05rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,58 @@
+.goods-main{
+    width: 100%;
+    ul{
+        li{
+            display: flex;
+            padding: 0.16rem;
+            padding-bottom: 0;
+            border-bottom: 0.02rem solid #aaaaaa;
+            justify-content: space-between;
+            align-items: center;
+           .goods{
+               display: block;
+               flex: 1;
+               display: flex;
+               justify-content:flex-start;
+               .goodsImg{
+                   @h: 1.3rem;
+                   height: @h;
+                   width: @h;
+                   border-radius: 0.08rem e("/") 0.08rem;
+                   overflow: hidden;
+               }
+               .goodsInfo{
+                    color: #090909;
+                    margin-left: 0.3rem;
+                    font-size: 0.24rem;
+                    .goodsName{
+                       
+                        margin-bottom: 0.35rem;
+                    }
+                    .price{
+                      
+                        line-height: 0.42rem;
+                        span{
+                            color: #ff0000;
+                        }
+                   }
+               }
+            } 
+            .joinCar{
+                display: block;
+                @w:0.7rem;
+                @h:0.6rem;
+                width: @w;
+                height: @h;
+                border: 0.02rem solid #0477b7;
+                
+                line-height: @h;
+                text-align: center;
+                color: #0477b7;
+                border-radius: 0.08rem;
+                span{
+                    font-size: 0.55rem;
+                }
+            }
+        }
+    }
+}

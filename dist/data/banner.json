@@ -1,0 +1,18 @@
+[
+    {   
+        "goodsID" : 1,
+        "goodsImg" : "http://img5.imgtn.bdimg.com/it/u=2015329786,222136567&fm=200&gp=0.jpg"
+    },
+    {   
+        "goodsID" : 2,
+        "goodsImg" : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522027283&di=cbcc7fec9de81107539bf2628dc7d5af&imgtype=jpg&er=1&src=http%3A%2F%2Fimg06.tooopen.com%2Fimages%2F20161129%2Ftooopen_sy_188270162788.jpg"
+    },
+    {   
+        "goodsID" : 3,
+        "goodsImg" : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522027283&di=cbcc7fec9de81107539bf2628dc7d5af&imgtype=jpg&er=1&src=http%3A%2F%2Fimg06.tooopen.com%2Fimages%2F20161129%2Ftooopen_sy_188270162788.jpg"
+    },
+    {   
+        "goodsID" : 4,
+        "goodsImg" : "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522027283&di=cbcc7fec9de81107539bf2628dc7d5af&imgtype=jpg&er=1&src=http%3A%2F%2Fimg06.tooopen.com%2Fimages%2F20161129%2Ftooopen_sy_188270162788.jpg"
+    }
+]

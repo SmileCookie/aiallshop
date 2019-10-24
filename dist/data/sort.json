@@ -1,0 +1,42 @@
+[
+    {
+        "path" : "drink",
+        "text" : "烟花鞭炮",
+        "img" : "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=463072356,3834146324&fm=58&bpow=424&bpoh=600"
+    },
+    {
+        "path" : "drink",
+        "text" : "酒水",
+        "img" : "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1888210317,462394848&fm=27&gp=0.jpg"
+    },
+    {
+        "path" : "drink",
+        "text" : "家具",
+        "img" : "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1594387174,2650700642&fm=27&gp=0.jpg"
+    },
+    {
+        "path" : "drink",
+        "text" : "电器",
+        "img" : "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=634621630,1058041955&fm=27&gp=0.jpg"
+    },
+    {
+        "path" : "drink",
+        "text" : "草帽鞋箱",
+        "img" : "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2781688197,3961552232&fm=27&gp=0.jpg"
+    },
+    {
+        "path" : "drink",
+        "text" : "水果特产",
+        "img" : "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=683066672,3032699885&fm=27&gp=0.jpg"
+    },
+    {
+        "path" : "drink",
+        "text" : "护肤产品",
+        "img" : "http://img2.imgtn.bdimg.com/it/u=3680363058,1917862464&fm=27&gp=0.jpg"
+    },
+    {
+        "path" : "drink",
+        "text" : "食品",
+        "img" : "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1312913934,1363758246&fm=27&gp=0.jpg"
+    }
+]

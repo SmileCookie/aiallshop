@@ -1,0 +1,39 @@
+.more-main{
+    width: 100%;
+    ul{
+        width: 100%;
+        li{
+            width: 25%;
+            float: left;
+            @h:1.9rem;
+            height: @h;box-sizing: border-box;
+            padding-top:0.2rem ;
+            
+            a{
+                display: block;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: @h - 0.3rem;
+                justify-content: space-between;
+                .font{
+                    @h:1.15rem;
+                    height: @h;
+                    width: @h;
+                    border-radius: @h/2;
+                    background: chocolate;
+                    text-align: center;
+                    line-height: @h;
+                    .iconfont{
+                        font-size: 0.8rem;
+                        color: #ffffff;
+                    }
+                }
+                p{
+                    color: #595959;
+                    font-size: 0.24rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "path" : "login",
+        "icon" : "icon-yonghu",
+        "text" : "会员"
+    },
+    {
+        "path" : "login",
+        "icon" : "icon-xin",
+        "text" : "二维码分享"
+    },
+    {
+        "path" : "login",
+        "icon" : "icon-message",
+        "text" : "朋友圈"
+    },
+    {
+        "path" : "login",
+        "icon" : "icon-liuyanpinglun",
+        "text" : "留言"
+    },
+    {
+        "path" : "login",
+        "icon" : "icon-lianjie",
+        "text" : "抽奖活动"
+    }
+
+]
